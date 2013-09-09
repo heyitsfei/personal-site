@@ -1,3 +1,13 @@
+body{
+	margin:0;
+	color:#999;
+}
+
+a{
+	text-decoration: none;
+	color:#111
+}
+
 .background{
 	background:url(../images/thailand.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -26,9 +36,6 @@
 	font-size:1.5em;
 	line-height: 1.2em;
 	font-family: 'Inika', sans-serif;
-}
-
-.projects{
-	height:300px;
-	background: #f4f4f4;
+	width:350px;
+	text-align:center;
 }
