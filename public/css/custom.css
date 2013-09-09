@@ -1,0 +1,34 @@
+.background{
+	background:url(../images/thailand.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height:500px;
+}
+.profile{
+	max-width: 280px;
+	max-height:280px;
+	overflow: hidden;
+	border-radius:50%;
+	background:#f4f4f4;
+	-moz-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin: -160px auto 0px;
+	display:block;
+}
+
+.description{
+	margin-left:auto;
+	margin-right:auto;
+	padding:20px;
+	font-size:1.5em;
+	line-height: 1.2em;
+	font-family: 'Inika', sans-serif;
+}
+
+.projects{
+	height:300px;
+	background: #f4f4f4;
+}
