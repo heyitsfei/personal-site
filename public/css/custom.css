@@ -50,15 +50,18 @@ body {
 }
 
 .background{
-	background:url(../img/thailand_sm.jpg) no-repeat;
-	width:auto;
-  	height:auto;
-  	margin:0;
-  	padding:0;
+	display:none;
 	} 
 
 .profile{
-		margin: 0px auto 0px;
+	display: none;
+}
+
+.profile_mobile{
+	margin: 0px auto 0px;
+	width: 500px;
+	height: 500px;
+	background:url(../img/fei4.jpg) no-repeat;
 	}
 
 .description{
