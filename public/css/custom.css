@@ -17,16 +17,9 @@ a{
   	background-size: cover;
 	height:350px;
 }
-
-.profile_wrapper{
-	max-width: 300px;
-	max-height: 300px;
-	margin:auto;
-}
-
 .profile{
-	max-width: 100%;
-	max-height:100%;
+	max-width: 280px;
+	max-height:280px;
 	overflow: hidden;
 	border-radius:50%;
 	background:#f4f4f4;
@@ -35,7 +28,6 @@ a{
 	-webkit-border-radius: 50%;
 	margin: -160px auto 0px;
 	display:block;
-	zoom:1;
 }
 
 .description{
@@ -52,20 +44,26 @@ a{
 @media all and (max-width: 480px) {
 
 body {
-	height:500px;
+	height:auto;
 	margin:0;
 	padding:0;
 }
 
 .background{
 	background:url(../img/thailand_sm.jpg) no-repeat;
+	width:auto;
+  	height:auto;
   	margin:0;
   	padding:0;
 	} 
 
+.profile{
+		margin: 0px auto 0px;
+	}
+
 .description{
-	max-width: 90%;
-	font-size:50px;
+	max-width: auto;
+	font-size:40px;
 }
 
 	}
