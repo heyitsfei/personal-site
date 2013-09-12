@@ -39,3 +39,18 @@ a{
 	width:350px;
 	text-align:center;
 }
+
+/* Mobile site */
+
+@media only screen and (max-device-width: 320px) {
+
+.background{
+	background:url(../img/thailand_sm.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height:500px;
+}
+
+	}
