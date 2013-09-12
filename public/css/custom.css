@@ -41,7 +41,7 @@ a{
 	text-align:center;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 480px) {
 
 body {
 	height:auto;
@@ -65,8 +65,8 @@ body {
 	}
 
 .description{
-	max-width: auto;
-	font-size:40px;
+	width:90%;
+	font-size:30px;
 }
 
 	}
