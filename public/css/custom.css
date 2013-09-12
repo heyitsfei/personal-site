@@ -26,7 +26,7 @@ a{
 	-moz-border-radius: 50%;
 	-khtml-border-radius: 50%;
 	-webkit-border-radius: 50%;
-	margin: -160px auto;
+	margin: -160px auto 0px;
 	display:block;
 }
 
@@ -41,7 +41,7 @@ a{
 	text-align:center;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 320px) {
 
 body {
 	height:500px;
@@ -52,7 +52,7 @@ body {
 .background{
 	background:url(../img/thailand_sm.jpg) no-repeat;
 	width:480px;
-  	height:300px;
+  	height:400px;
   	margin:0;
   	padding:0;
 	} 
@@ -60,7 +60,32 @@ body {
 .description{
 	width:75%;
 	font-size:30px;
-	margin: 140px auto;
+	margin: auto;
+}
+
+	}
+
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+
+body {
+	height:500px;
+	margin:0;
+	padding:0;
+}
+
+.background{
+	background:url(../img/thailand_sm.jpg) no-repeat;
+	width:480px;
+  	height:400px;
+  	margin:0;
+  	padding:0;
+	} 
+
+.description{
+	width:75%;
+	font-size:30px;
+	margin: auto;
 }
 
 	}
