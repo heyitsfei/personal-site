@@ -57,14 +57,14 @@ body {
   	padding:0;
 	} 
 
+.profile{
+	margin:auto;
+}
+
 .description{
 	width:75%;
 	font-size:30px;
+	margin: auto;
 }
-
-.profile{
-	min-width: 280px;
-	min-height:280px;
-	}
 
 	}
