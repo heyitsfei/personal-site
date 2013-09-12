@@ -43,8 +43,19 @@ a{
 
 @media all and (max-width: 480px) {
 
+.background{
+	background:url(../img/thailand_sm.jpg) no-repeat center center fixed;
+	width:480px;
+  	height:400px;
+	} 
+
 .description{
 	width:75%;
 }
+
+.profile{
+	max-width: 75%;
+	max-height:40%;
+	}
 
 	}
