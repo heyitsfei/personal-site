@@ -26,7 +26,7 @@ a{
 	-moz-border-radius: 50%;
 	-khtml-border-radius: 50%;
 	-webkit-border-radius: 50%;
-	margin: -160px auto 0px;
+	margin: -160px auto;
 	display:block;
 }
 
@@ -52,19 +52,15 @@ body {
 .background{
 	background:url(../img/thailand_sm.jpg) no-repeat;
 	width:480px;
-  	height:400px;
+  	height:300px;
   	margin:0;
   	padding:0;
 	} 
 
-.profile{
-	margin:auto;
-}
-
 .description{
 	width:75%;
 	font-size:30px;
-	margin: auto;
+	margin: 140px auto;
 }
 
 	}
