@@ -9,6 +9,7 @@ a{
 	color:#111
 }
 
+/*
 .background{
 	background:url(../img/thailand.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -18,6 +19,8 @@ a{
 	height:350px;
 	margin:0;
 }
+*/
+
 .profile{
 	max-width: 280px;
 	max-height:280px;
@@ -27,7 +30,7 @@ a{
 	-moz-border-radius: 50%;
 	-khtml-border-radius: 50%;
 	-webkit-border-radius: 50%;
-	margin: -160px auto 0px;
+	margin: 40px auto 0px;
 	display:block;
 }
 
@@ -38,10 +41,11 @@ a{
 	font-size:1.5em;
 	line-height: 1.2em;
 	font-family: 'Inika', sans-serif;
-	width:65%;
+	width:60%;
 	text-align:center;
 }
 
+/*
 @media all and (max-width: 320px) {
 
 body {
@@ -66,7 +70,6 @@ body {
 
 	}
 
-
 @media all and (min-width: 320px) and (max-width: 480px) {
 
 body {
@@ -90,3 +93,4 @@ body {
 }
 
 	}
+*/
